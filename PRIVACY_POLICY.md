@@ -28,5 +28,6 @@ Daily Tabs Launcher is a Chrome extension that helps you open your daily work UR
 - Uninstalling the extension removes its stored data from Chrome.
 
 ## Contact
-- For questions or issues, contact the developer (add your support email or issue tracker link here).
+- For questions or issues, contact the developer (pandiyarajk@live.com).
+
 
