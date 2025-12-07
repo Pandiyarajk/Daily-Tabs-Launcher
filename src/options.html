@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Tabs Launcher - Options</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div>
+        <h1>Daily Tabs Launcher</h1>
+        <p class="subtitle">Manage your URL groups</p>
+      </div>
+      <button id="openAll" class="primary">Open All Tabs</button>
+    </header>
+
+    <main class="grid">
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Groups</h2>
+        </div>
+
+        <form id="addGroupForm" class="form-inline">
+          <input id="groupName" type="text" placeholder="New group name" required />
+          <button type="submit" class="primary">Add Group</button>
+        </form>
+
+        <div id="groupsList" class="list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>URLs</h2>
+          <div class="select-row">
+            <label for="groupSelect">Group</label>
+            <select id="groupSelect"></select>
+          </div>
+        </div>
+
+        <form id="addUrlForm" class="form-inline">
+          <input id="urlInput" type="url" placeholder="https://example.com" required />
+          <button type="submit" class="primary">Add URL</button>
+        </form>
+
+        <div id="urlsList" class="list"></div>
+      </section>
+    </main>
+
+    <script src="storage.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>
+

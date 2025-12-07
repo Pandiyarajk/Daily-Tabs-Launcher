@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Tabs Launcher</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <h1>Daily Tabs</h1>
+        <p class="subtitle">Open your daily work URLs</p>
+      </div>
+      <button id="openAll" class="primary">Open All Tabs</button>
+    </header>
+
+    <section id="groupsContainer" class="groups"></section>
+
+    <footer class="footer">
+      <button id="manage" class="ghost">Manage URLs</button>
+    </footer>
+
+    <script src="storage.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
+
