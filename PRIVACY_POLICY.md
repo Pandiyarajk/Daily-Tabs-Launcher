@@ -1,6 +1,6 @@
 # Privacy Policy — Daily Tabs Launcher
 
-Effective date: 2025-12-07
+Effective date: 2025-12-10
 
 Daily Tabs Launcher is a Chrome extension that helps you open your daily work URLs quickly. We are committed to user privacy and data minimization.
 
@@ -15,7 +15,6 @@ Daily Tabs Launcher is a Chrome extension that helps you open your daily work UR
 
 ## Permissions and Purpose
 - `storage`: Save and retrieve your groups/URLs.
-+- `tabs`: Open the URLs you saved in new tabs. We do not read or modify tab contents.
 
 ## Data Sharing and Selling
 - We do not share, sell, or transmit your data to any third party.
@@ -29,5 +28,4 @@ Daily Tabs Launcher is a Chrome extension that helps you open your daily work UR
 
 ## Contact
 - For questions or issues, contact the developer (pandiyarajk@live.com).
-
 

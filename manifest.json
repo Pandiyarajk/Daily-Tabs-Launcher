@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Daily Tabs Launcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Open your daily work URLs with one click.",
-  "permissions": ["tabs", "storage"],
+  "permissions": ["storage"],
   "action": {
     "default_popup": "src/popup.html",
     "default_icon": {

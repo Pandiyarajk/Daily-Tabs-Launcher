@@ -1,0 +1,4 @@
+build/*.zip
+build/*.crx
+build/*.xpi
+
